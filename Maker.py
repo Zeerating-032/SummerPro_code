@@ -1,7 +1,7 @@
 from random import randint
 import os, time
 
-#prepare
+#create folder and prepare file name from 001 to 999
 start=time.time()
 os.makedirs("./Question", 0o777, exist_ok=True)
 os.makedirs("./CorrectAnswer/", 0o777, exist_ok=True)
@@ -36,7 +36,7 @@ def make_number():
 				if bool(one_or_zero[i-6][j]):
 					aim_list[i]+=num[i-6][j]
 
-def len2(x):
+def len2(x): #make output beautiful ex. 2-->02
     x=str(x)
     while len(x)<2:
         x="0"+x
