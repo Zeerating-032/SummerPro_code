@@ -1,7 +1,7 @@
 **SummerPro_code**
 
-Maker.py --> make question and answer
-Solver.py --> solve and output
-check.py --> check output and correct answer
+Maker.py --> make question and answer \n
+Solver.py --> solve and output \n
+check.py --> check output and correct answer \n
 
 *2020-12-27*
